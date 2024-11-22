@@ -1237,7 +1237,7 @@
     (uuid fc2c12a3-3a41-41f0-a8c2-1901b1aa30b1)
   )
 
-  (text "Input: 12V nom\n5V - 25V" (at 31.75 45.72 0)
+  (text "Input: 12V nom\n5V - 25V" (at 30.48 30.48 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 18fb7e2d-6248-42f8-8086-dc0fdfccb4fe)
   )
@@ -1574,7 +1574,7 @@
     (property "Value" "Probe" (at 35.56 109.22 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 36.83 107.95 0)
+    (property "Footprint" "NevaDA:Pad_Wire" (at 36.83 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 36.83 107.95 0)
