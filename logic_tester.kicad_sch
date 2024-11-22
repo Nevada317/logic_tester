@@ -1326,7 +1326,7 @@
   (symbol (lib_id "symbol:R") (at 196.85 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 041fd0ac-8aa3-43fb-b471-d416150d1e56)
-    (property "Reference" "R17" (at 196.85 96.5667 90)
+    (property "Reference" "R18" (at 196.85 96.5667 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 196.85 98.9909 90)
@@ -1343,7 +1343,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R17") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -1402,7 +1402,7 @@
   (symbol (lib_id "symbol:R") (at 50.8 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07fb7136-1252-4900-baa8-12ba05a67776)
-    (property "Reference" "R12" (at 52.451 125.7879 0)
+    (property "Reference" "R2" (at 52.451 125.7879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 52.451 128.2121 0)
@@ -1419,7 +1419,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R12") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -1428,7 +1428,7 @@
   (symbol (lib_id "symbol:C_GND") (at 114.3 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ad20130-fd56-445a-98a3-fb8248e6b2f1)
-    (property "Reference" "C7" (at 114.3 48.26 0) (do_not_autoplace)
+    (property "Reference" "C5" (at 114.3 48.26 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 114.3 50.8 0) (do_not_autoplace)
@@ -1457,7 +1457,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "C7") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -1466,7 +1466,7 @@
   (symbol (lib_id "symbol:R") (at 139.7 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b21e189-8ac4-41f4-bd2d-17cacc22deb7)
-    (property "Reference" "R14" (at 141.351 43.2379 0)
+    (property "Reference" "R13" (at 141.351 43.2379 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "240" (at 141.351 45.6621 0)
@@ -1495,7 +1495,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R14") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -1504,7 +1504,7 @@
   (symbol (lib_id "symbol:C_GND") (at 120.65 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1aea21f8-7e21-4ba0-835a-cc0d0faab61a)
-    (property "Reference" "C6" (at 123.6726 72.6907 90)
+    (property "Reference" "C3" (at 123.6726 72.6907 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 123.6726 75.1149 90)
@@ -1533,7 +1533,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "C6") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -1542,7 +1542,7 @@
   (symbol (lib_id "Device:LED") (at 209.55 101.6 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21a92cb4-4896-4773-a6f6-6c2f766fc0e6)
-    (property "Reference" "D5" (at 207.9625 95.2967 0)
+    (property "Reference" "D3" (at 207.9625 95.2967 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KP-2012MGC" (at 207.9625 97.7209 0)
@@ -1559,7 +1559,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "D5") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1605,7 +1605,7 @@
   (symbol (lib_id "symbol:C_GND") (at 146.05 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2630d6d0-2ef6-4b3e-8e76-172a6e7fc4be)
-    (property "Reference" "C1" (at 146.05 124.46 0) (do_not_autoplace)
+    (property "Reference" "C8" (at 146.05 124.46 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 146.05 127 0) (do_not_autoplace)
@@ -1634,7 +1634,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "C1") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -1643,7 +1643,7 @@
   (symbol (lib_id "symbol:R") (at 95.25 120.65 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2878b663-8c11-4b3a-bb8a-236dcafea98b)
-    (property "Reference" "R5" (at 95.25 115.6167 90)
+    (property "Reference" "R8" (at 95.25 115.6167 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 95.25 118.0409 90)
@@ -1660,7 +1660,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R5") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1669,7 +1669,7 @@
   (symbol (lib_id "symbol:C_GND") (at 44.45 88.9 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35d0aaef-cbcd-41bc-8040-64a6a5fe9c00)
-    (property "Reference" "C4" (at 43.942 77.7737 90)
+    (property "Reference" "C1" (at 43.942 77.7737 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 43.942 80.1979 90)
@@ -1698,7 +1698,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "C4") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -1733,7 +1733,7 @@
   (symbol (lib_id "symbol:C_GND") (at 133.35 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 43537608-4db8-4294-8b1f-7b68ffd73a85)
-    (property "Reference" "C3" (at 133.35 124.46 0) (do_not_autoplace)
+    (property "Reference" "C7" (at 133.35 124.46 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 133.35 127 0) (do_not_autoplace)
@@ -1762,7 +1762,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "C3") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -1771,7 +1771,7 @@
   (symbol (lib_id "Device:LED") (at 209.55 114.3 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49faf7f2-0955-498c-95a4-b6c7b21d9b90)
-    (property "Reference" "D3" (at 207.9625 107.9967 0)
+    (property "Reference" "D4" (at 207.9625 107.9967 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "KP-2012MGC" (at 207.9625 110.4209 0)
@@ -1788,7 +1788,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "D3") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1884,7 +1884,7 @@
   (symbol (lib_id "symbol:R") (at 95.25 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 523158b7-6bb8-48fe-ba0e-4bb28e0e786d)
-    (property "Reference" "R3" (at 95.25 90.2167 90)
+    (property "Reference" "R9" (at 95.25 90.2167 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 95.25 92.6409 90)
@@ -1913,7 +1913,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R3") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -1959,7 +1959,7 @@
   (symbol (lib_id "symbol:R") (at 76.2 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5fbfa526-9861-42e9-9595-d1885ddf04dc)
-    (property "Reference" "R8" (at 77.851 125.7879 0)
+    (property "Reference" "R6" (at 77.851 125.7879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 77.851 128.2121 0)
@@ -1988,7 +1988,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R8") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2022,7 +2022,7 @@
   (symbol (lib_id "symbol:R") (at 50.8 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b1c0259-ac8d-4e70-b39d-212c88b87d35)
-    (property "Reference" "R11" (at 52.451 74.9879 0)
+    (property "Reference" "R1" (at 52.451 74.9879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 52.451 77.4121 0)
@@ -2051,7 +2051,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R11") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -2060,7 +2060,7 @@
   (symbol (lib_id "symbol:R") (at 196.85 114.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d802b3c-541b-4b86-9adc-f2141306741f)
-    (property "Reference" "R16" (at 196.85 109.2667 90)
+    (property "Reference" "R19" (at 196.85 109.2667 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 196.85 111.6909 90)
@@ -2077,7 +2077,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R16") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -2086,7 +2086,7 @@
   (symbol (lib_id "symbol:R") (at 146.05 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ec87f4b-8ecb-4f63-8e37-a4df4fcae22b)
-    (property "Reference" "R2" (at 147.701 74.9879 0)
+    (property "Reference" "R12" (at 147.701 74.9879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 147.701 77.4121 0)
@@ -2103,7 +2103,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R2") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -2112,7 +2112,7 @@
   (symbol (lib_id "symbol:R") (at 95.25 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 727f9b39-8b07-4b13-8d0b-aeb4680bd71c)
-    (property "Reference" "R1" (at 95.25 77.5167 90)
+    (property "Reference" "R7" (at 95.25 77.5167 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 95.25 79.9409 90)
@@ -2129,7 +2129,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R1") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -2138,7 +2138,7 @@
   (symbol (lib_id "symbol:C_GND") (at 152.4 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 741dcf05-ec5f-4848-b5ae-2bd25c7904f8)
-    (property "Reference" "C8" (at 152.4 48.26 0) (do_not_autoplace)
+    (property "Reference" "C9" (at 152.4 48.26 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 152.4 50.8 0) (do_not_autoplace)
@@ -2167,7 +2167,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "C8") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -2176,7 +2176,7 @@
   (symbol (lib_id "symbol:C_GND") (at 165.1 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 796a1806-aec9-4077-b1a4-cd3525c9a6b7)
-    (property "Reference" "C2" (at 168.1226 98.0907 90)
+    (property "Reference" "C10" (at 168.1226 98.0907 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 168.1226 100.5149 90)
@@ -2205,7 +2205,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "C2") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -2214,7 +2214,7 @@
   (symbol (lib_id "symbol:R") (at 158.75 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81cd20cb-41f3-4d99-9abd-6fdd3a7e9460)
-    (property "Reference" "R10" (at 160.401 74.9879 0)
+    (property "Reference" "R15" (at 160.401 74.9879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 160.401 77.4121 0)
@@ -2243,7 +2243,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R10") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -2277,7 +2277,7 @@
   (symbol (lib_id "symbol:C_GND") (at 69.85 82.55 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 822f3c95-b38d-4403-a768-5217468aa16d)
-    (property "Reference" "C5" (at 69.342 71.4237 90)
+    (property "Reference" "C2" (at 69.342 71.4237 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 69.342 73.8479 90)
@@ -2306,7 +2306,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "C5") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2315,7 +2315,7 @@
   (symbol (lib_id "symbol:R") (at 127 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92886696-aa7e-46f3-8078-19b6c63e94f3)
-    (property "Reference" "R20" (at 128.651 55.9379 0)
+    (property "Reference" "R14" (at 128.651 55.9379 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 128.651 58.3621 0)
@@ -2344,7 +2344,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R20") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -2353,7 +2353,7 @@
   (symbol (lib_id "symbol:C_GND") (at 107.95 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 99d4f6f4-dd4f-4f7b-91aa-5560b95bf825)
-    (property "Reference" "C10" (at 107.95 48.26 0) (do_not_autoplace)
+    (property "Reference" "C6" (at 107.95 48.26 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 107.95 50.8 0) (do_not_autoplace)
@@ -2382,7 +2382,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "C10") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -2391,7 +2391,7 @@
   (symbol (lib_id "symbol:R") (at 133.35 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d62486b-a3c6-4a21-82ae-37aa683f2213)
-    (property "Reference" "R9" (at 135.001 74.9879 0)
+    (property "Reference" "R11" (at 135.001 74.9879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 135.001 77.4121 0)
@@ -2420,7 +2420,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R9") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -2479,7 +2479,7 @@
   (symbol (lib_id "symbol:R") (at 95.25 107.95 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc3a6170-535a-4287-89b8-63de466a6488)
-    (property "Reference" "R4" (at 95.25 102.9167 90)
+    (property "Reference" "R10" (at 95.25 102.9167 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 95.25 105.3409 90)
@@ -2496,7 +2496,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R4") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2505,7 +2505,7 @@
   (symbol (lib_id "symbol:C_GND") (at 101.6 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bdfbc370-c1de-4e9a-9cf2-8138c51658b7)
-    (property "Reference" "C9" (at 101.6 48.26 0) (do_not_autoplace)
+    (property "Reference" "C4" (at 101.6 48.26 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22u" (at 101.6 50.8 0) (do_not_autoplace)
@@ -2534,7 +2534,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "C9") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2543,7 +2543,7 @@
   (symbol (lib_id "symbol:R") (at 158.75 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be053ecb-937a-409e-b284-dbbb0848f637)
-    (property "Reference" "R18" (at 160.401 125.7879 0)
+    (property "Reference" "R16" (at 160.401 125.7879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 160.401 128.2121 0)
@@ -2572,7 +2572,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R18") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -2581,7 +2581,7 @@
   (symbol (lib_id "symbol:R") (at 76.2 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c0ed11ea-aa10-43c1-9054-b1cdb2a6de74)
-    (property "Reference" "R6" (at 77.851 94.0379 0)
+    (property "Reference" "R4" (at 77.851 94.0379 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 77.851 96.4621 0)
@@ -2610,7 +2610,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R6") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2645,7 +2645,7 @@
   (symbol (lib_id "symbol:R") (at 76.2 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c9afa378-1b87-452b-8262-e55f3b2421f7)
-    (property "Reference" "R7" (at 77.851 74.9879 0)
+    (property "Reference" "R5" (at 77.851 74.9879 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 77.851 77.4121 0)
@@ -2674,7 +2674,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R7") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2722,7 +2722,7 @@
   (symbol (lib_id "symbol:R") (at 63.5 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd3b17ac-bbb3-4b86-995f-1bddaf8ffc18)
-    (property "Reference" "R13" (at 65.151 94.0379 0)
+    (property "Reference" "R3" (at 65.151 94.0379 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 65.151 96.4621 0)
@@ -2751,7 +2751,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R13") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2947,7 +2947,7 @@
   (symbol (lib_id "symbol:R") (at 196.85 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1eacec6-2f00-42c4-9b1e-0a06c5791430)
-    (property "Reference" "R15" (at 196.85 83.8667 90)
+    (property "Reference" "R17" (at 196.85 83.8667 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 196.85 86.2909 90)
@@ -2964,7 +2964,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "R15") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
