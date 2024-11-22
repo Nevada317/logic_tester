@@ -1349,7 +1349,7 @@
     )
   )
 
-  (symbol (lib_id "symbol:LM339") (at 114.3 114.3 0) (unit 2)
+  (symbol (lib_id "symbol:LM339") (at 114.3 114.3 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07f1f03e-4557-44e8-a43e-328b60e54329)
     (property "Reference" "U1" (at 118.11 107.95 0) (do_not_autoplace)
@@ -1393,7 +1393,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "U1") (unit 2)
+          (reference "U1") (unit 4)
         )
       )
     )
@@ -1794,7 +1794,7 @@
     )
   )
 
-  (symbol (lib_id "symbol:LM339") (at 177.8 114.3 0) (unit 4)
+  (symbol (lib_id "symbol:LM339") (at 177.8 114.3 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a733edd-a96f-473d-b904-dab4d9075e7f)
     (property "Reference" "U1" (at 181.61 107.95 0) (do_not_autoplace)
@@ -1838,7 +1838,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "U1") (unit 4)
+          (reference "U1") (unit 3)
         )
       )
     )
@@ -2426,7 +2426,7 @@
     )
   )
 
-  (symbol (lib_id "symbol:LM339") (at 177.8 88.9 0) (unit 3)
+  (symbol (lib_id "symbol:LM339") (at 177.8 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae8eab56-00c7-4f34-9d17-e8f04d7aa19a)
     (property "Reference" "U1" (at 181.61 82.55 0) (do_not_autoplace)
@@ -2470,7 +2470,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "U1") (unit 3)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -2894,7 +2894,7 @@
     )
   )
 
-  (symbol (lib_id "symbol:LM339") (at 114.3 88.9 0) (unit 1)
+  (symbol (lib_id "symbol:LM339") (at 114.3 88.9 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef43e8ee-ef58-4451-88b8-ff9d9402a78c)
     (property "Reference" "U1" (at 118.11 82.55 0) (do_not_autoplace)
@@ -2938,7 +2938,7 @@
     (instances
       (project "logic_tester"
         (path "/4085a7af-4def-400e-a89c-e37b73aa27bf"
-          (reference "U1") (unit 1)
+          (reference "U1") (unit 2)
         )
       )
     )
