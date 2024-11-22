@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "Logic Tester")
+    (date "2024-11-23")
+    (rev "1.0")
+    (company "OSHW")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -2469,6 +2476,9 @@
   )
   (gr_text "LOW" (at 83.5 105.1) (layer "F.SilkS") (tstamp d7f87441-fb9f-42e5-9b46-ec39137c39d8)
     (effects (font (size 0.9 0.9) (thickness 0.2) bold))
+  )
+  (gr_text "+" (at 129.5 95.25) (layer "F.SilkS") (tstamp f461c0bf-5896-4b88-81eb-3de4565ba51c)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold))
   )
 
   (segment (start 104.1 95.65) (end 104.1 95.25) (width 0.25) (layer "F.Cu") (net 1) (tstamp 44b7400c-af9e-4380-95a2-f3b41577f8fc))
