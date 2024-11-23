@@ -9,6 +9,7 @@
     (date "2024-11-23")
     (rev "1.0")
     (company "OSHW")
+    (comment 1 "https://github.com/Nevada317/logic_tester")
   )
 
   (lib_symbols
