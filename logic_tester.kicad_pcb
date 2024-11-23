@@ -46,8 +46,9 @@
 
   (setup
     (pad_to_mask_clearance 0)
+    (aux_axis_origin 75 90)
     (pcbplotparams
-      (layerselection 0x00010fc_ffffffff)
+      (layerselection 0x00310fc_ffffffff)
       (plot_on_all_layers_selection 0x0000000_00000000)
       (disableapertmacros false)
       (usegerberextensions false)
@@ -60,7 +61,7 @@
       (plotframeref false)
       (viasonmask false)
       (mode 1)
-      (useauxorigin false)
+      (useauxorigin true)
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15.000000)
@@ -76,9 +77,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "pcb_v10")
     )
   )
 
@@ -295,7 +296,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a545ea79-71aa-44af-80dc-1436e52764db)
     )
-    (fp_text user "${REFERENCE}" (at 0 -5.4 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 -2.75 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8a24b55f-dc1b-4016-8fea-f6a73ad3ece3)
     )
